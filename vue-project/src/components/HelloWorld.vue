@@ -22,8 +22,7 @@ export default {
   },
   methods:{
       getData:function(){
-
-      this.$ajax.get('http://localhost:54407/api/take_out/')
+      this.$ajax.get('http://localhost:54407/api/take_out/GetAAA')
         .then(function (response) {
           debugger
           console.log(response);
